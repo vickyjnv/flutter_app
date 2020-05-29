@@ -10,8 +10,8 @@ void main() => runApp(
           ),
           body: Center(
             child: Image(
-                image: NetworkImage(
-                    'https://cdn.pixabay.com/photo/2015/06/19/21/24/the-road-815297__340.jpg')),
+              image: AssetImage('images/diamond.png'),
+            ),
           ),
         ),
       ),
